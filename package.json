@@ -1,0 +1,25 @@
+{
+  "name": "qa-alura",
+  "version": "1.0.0",
+  "description": "Projeto de QA das aulas Alura",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Wesley Barato",
+  "license": "ISC",
+  "bugs": {
+    "url":
+  },
+  "homepage":"",
+  "dependencies": {
+    "cypress": "^9.1.1"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.3"
+  }
+}
