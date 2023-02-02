@@ -12,9 +12,7 @@
   },
   "author": "Wesley Barato",
   "license": "ISC",
-  "bugs": {
-    "url":
-  },
+
   "homepage":"",
   "dependencies": {
     "cypress": "^9.1.1"
