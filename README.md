@@ -1,2 +1,2 @@
 # alurapicqa
-analise do curso de qa no site da alurapic
+Analise na parte de Quality Assurance no site da Alurapic
