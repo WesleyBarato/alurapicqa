@@ -1,9 +1,9 @@
-describe('Teste de funcionalidades de login Alurapic', () => {
+describe('Teste de funcionalidades de cadastro Alurapic', () => {
 
     /* Usar a função beforeEach e o comando cy.visit(),
        para indicar a URL que será carregada antes de cada novo caso de teste; */
     beforeEach(() => {
-        cy.visit('https://alura-fotos.herokuapp.com/');
+        cy.visit('/');
     })
 
     it('verificar mensagens de erro', () => {

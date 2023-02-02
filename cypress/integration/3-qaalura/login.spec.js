@@ -7,7 +7,7 @@ describe('Teste de funcionalidades de login Alurapic', () => {
     })
 
     it('verificar login correto', () => {
-        cy.login('wesley', '123456789') //usada a função login criada no gui_commands.js
+        cy.login(Cypress.env('userName'), Cypress.env('password')) //usada a função login criada no gui_commands.js
         cy.contains('a', '(Logout)').should('be.visible')
        })
   
